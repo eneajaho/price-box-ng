@@ -4,7 +4,8 @@ Pricing Boxes built using Angular 8 and CSS Grid. - Free To Use
 
 ![Screenshot](https://raw.githubusercontent.com/eneajaho/price-box-ng/master/screenshot.png)
 
-#Data Source
+
+# Data Source
 
 ```javascript
 pricingBoxes = [
@@ -25,6 +26,18 @@ pricingBoxes = [
     }
   ];
 ```
+
+```javascript
+export class PriceTableComponent {
+  @Input() pricingBox: {
+    name: string, 
+    price: number, 
+    features: string[]
+  };
+}
+```
+
+
 
 
 ## Angular Stuff
