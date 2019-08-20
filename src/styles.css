@@ -10,11 +10,8 @@ body{
 }
 
 .container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  width: 90%;
+  margin: auto;
 }
 
 @media (min-width: 576px) {
