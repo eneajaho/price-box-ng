@@ -6,7 +6,7 @@ Pricing Boxes built using Angular 8 and CSS Grid. - Free To Use
 
 #Data Source
 
-```
+```javascript
 pricingBoxes = [
     {
       name: 'Free',
