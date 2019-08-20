@@ -4,6 +4,28 @@ Pricing Boxes built using Angular 8 and CSS Grid. - Free To Use
 
 ![Screenshot](https://raw.githubusercontent.com/eneajaho/price-box-ng/master/screenshot.png)
 
+#Data Source
+
+```
+pricingBoxes = [
+    {
+      name: 'Free',
+      price: 0,
+      features: [...]
+    },
+    {
+      name: 'Pro',
+      price: 59,
+      features: [...]
+    },
+    {
+      name: 'Business',
+      price: 99,
+      features: [...]
+    }
+  ];
+```
+
 
 ## Angular Stuff
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.3.
