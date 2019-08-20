@@ -1,0 +1,89 @@
+
+/* Price box  */
+:host {
+  width: 100%;
+  background: white;
+  text-align: center;
+  box-shadow: 3px 3px 20px #e0e0e0;
+  cursor: pointer;
+  transition: 0.2s all;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+:host:hover {
+  box-shadow: 0 10px 20px #8a8a8a6e;
+  transform: translateY(-5px);
+}
+
+:host:active {
+  box-shadow: 0 0 20px #d9d9d999;
+  transform: translateY(2px);
+}
+
+.box-header {
+  text-align: center;
+  background: linear-gradient(45deg, rgba(5, 125, 201, 0.82) 0%, #039e78cf 80%);
+  padding: 1.5rem 0;
+  color: white;
+}
+
+.box-header > .package-type {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.box-header > .price > span {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.box-header > .price > span.dollar-sign {
+  font-weight: 400;
+  font-size: 2rem;
+  transform: translate(-20px, 16px);
+  position: absolute;
+}
+
+.box-body {
+  padding: 2rem 0 2.8rem 0;
+  line-height: 2.5rem;
+  color: #a4a2a2;
+}
+
+.list-unstyled {
+  margin-bottom: 1rem;
+}
+
+.box-body > .small-text {
+  font-size: 13px;
+  color: #bfbbbb;
+}
+
+/*Buttons*/
+
+.btn-purchase {
+  background: rgba(50, 176, 145, 0.11);
+  border: none;
+  border-radius: 2rem;
+  color: #32b091 !important;
+  padding: 0.8rem 4rem;
+  font-weight: 600;
+  font-size: 18px;
+  transition: 0.2s all;
+  outline: none;
+  cursor: pointer;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+}
+
+.btn-purchase:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px #e4e4e487;
+  background: #32b091;
+  color: white !important;
+}
+
+.btn-purchase:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
