@@ -1,4 +1,4 @@
-# Price Boxes NG - [Live Demo](https://price-box-ng.netlify.com/)
+# Price Box NG - [Live Demo](https://price-box-ng.netlify.com/)
 
 Pricing Boxes built using Angular 8 and CSS Grid. - Free To Use
 
