@@ -2,7 +2,10 @@
   <h1>{{ title }}</h1>
   <div class="container">
     <div class="pricing-grid">
-      <app-price-table *ngFor="let pricingBox of pricingBoxes" [pricingBox]="pricingBox"></app-price-table>
+      <app-price-table
+        *ngFor="let pricingBox of pricingBoxes"
+        [pricingBox]="pricingBox"
+      ></app-price-table>
     </div>
   </div>
 </div>
